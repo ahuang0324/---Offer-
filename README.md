@@ -1,2 +1,1146 @@
-# ---Offer-
-这是一份精心设计的系统性学习方案，帮助你在3个月内从算法小白成长为能够自信应对算法比赛（或者面试）的选手。
+
+## 📋 计划简介
+
+欢迎来到**算法刷题12周冲刺计划**！这是一份精心设计的系统性学习方案，帮助你在3个月内从算法小白成长为能够自信应对算法比赛（或者面试）的选手。
+
+### 📊 计划概况
+
+- **总时长**：12周（84天）
+
+- **每日投入**：1-2小时
+
+- **题目总量**：200+道精选LeetCode题目
+
+- **难度分布**：基础→进阶→冲刺，循序渐进
+
+### 👥 适用人群
+
+- 有一定编程基础（掌握基本语法）
+
+- 准备参加蓝桥杯等算法竞赛的同学
+
+- 希望系统学习算法的初学者
+
+- 想要快速提升算法能力的学习者
+
+### 📚 核心内容覆盖
+
+本计划涵盖蓝桥杯**80%以上**的核心考点：
+
+- **Week 1-2**：滑动窗口、双指针、二分查找
+
+- **Week 3-4**：前缀和、单调栈、队列与堆
+
+- **Week 5-6**：动态规划（DP）、背包问题、LCS
+
+- **Week 7-8**：DFS/BFS、回溯算法、二叉树
+
+- **Week 9**：贪心算法、区间问题
+
+- **Week 10**：位运算、并查集、数学
+
+- **Week 11**：专项强化、查漏补缺
+
+- **Week 12**：真题模拟、考前冲刺
+
+### ✨ 特色亮点
+
+1. **📺 配套视频讲解**：每个专题都配有灵神（灵茶山艾府）的视频讲解链接
+
+2. **📝 每日题目清单**：不再迷茫，每天具体做哪些题一目了然
+
+3. **⭐ 重点标记**：标记⭐的题目是该专题的核心，必须掌握
+
+4. **🔄 每周复习**：第7天为复习日，巩固本周知识点
+
+5. **🎓 进度打卡**：提供进度表模板，记录学习状态
+
+6. **🏆 真题模拟**：最后两周进行历年真题模拟，实战演练
+
+### 💡 使用建议
+
+1. **按顺序完成**：前面的内容是后面的基础，不要跳跃
+
+2. **独立思考**：先自己思考10-30分钟，再看题解
+
+3. **重点题目**：标记⭐的题目务必掌握，可能多次复习
+
+4. **每周复习**：第7天重做本周⭐题目，检验掌握情况
+
+5. **灵活调整**：时间紧可减少题量，时间充裕可增加练习
+
+6. **记录总结**：每天记录收获，整理知识点笔记
+
+### 🎉 预期效果
+
+完成本计划后，你将能够：
+
+- ✅ 掌握10+种核心算法和数据结构
+
+- ✅ 熟练运用常见算法模板
+
+- ✅ 独立解决蓝桥杯80%以上的题型
+
+- ✅ 建立完整的算法思维框架
+
+- ✅ 具备参加省赛的实力
+
+### 🚀 开始你的算法之旅
+
+**坚持就是胜利！** 每天进步一点点，3个月后你会感谢现在努力的自己。现在，让我们从Week 1开始，迈出冲刺算法大师的第一步！
+
+---
+
+## Week 1: 滑动窗口与双指针 (Day 1-7)
+
+### Day 1: 定长滑动窗口基础（3题）
+
+**学习目标**：理解定长滑窗的核心思想，掌握模板写法
+
+**配套视频**：[【套路】教你解决定长滑窗！](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/solutions/2809359/tao-lu-jiao-ni-jie-jue-ding-chang-hua-ch-fzfo/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 1263 | 定长滑窗模板题,必须掌握 | - [ ] |
+| 2 | [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/) | 基础 | 练习窗口内求和 | - [ ] |
+| 3 | [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | 1317 | 统计满足条件的窗口 | - [ ] |
+
+**今日总结**：回顾定长滑窗的两个步骤：(1)先计算第一个窗口 (2)滑动窗口更新答案
+
+---
+
+### Day 2: 定长滑动窗口进阶（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [2090. 半径为 k 的子数组平均值](https://leetcode.cn/problems/k-radius-subarray-averages/) | 1358 | 理解窗口半径的概念 | - [ ] |
+| 2 | [2379. 得到 K 个黑块的最少涂色次数](https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | 1360 | 最小化窗口内操作数 | - [ ] |
+| 3 | ⭐ [2841. 几乎唯一子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-almost-unique-subarray/) | 1546 | 哈希表+滑窗 | - [ ] |
+| 4 | [2461. 长度为 K 子数组中的最大和](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | 1553 | 维护窗口内元素唯一性 | - [ ] |
+
+**今日总结**：学会在滑窗中使用哈希表维护额外信息
+
+---
+
+### Day 3: 不定长滑窗-求最长（上）（4题）
+
+**学习目标**：掌握"越短越合法"型滑窗，学会维护双指针
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | 经典 | 不定长滑窗经典题 | - [ ] |
+| 2 | [3090. 每个字符最多出现两次的最长子字符串](https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/) | 1329 | 练习频次统计 | - [ ] |
+| 3 | [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/) | 1423 | 允许删除一个元素 | - [ ] |
+| 4 | [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget/) | 1497 | 成本约束下的滑窗 | - [ ] |
+
+**今日总结**：while循环收缩左边界，直到满足条件
+
+---
+
+### Day 4: 不定长滑窗-求最长（下）（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/) | 1516 | 最多k种不同元素 | - [ ] |
+| 2 | [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value/) | 1529 | 无重复元素的最大和 | - [ ] |
+| 3 | ⭐ [2024. 考试的最大困扰度](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/) | 1643 | 替换至多k个字符 | - [ ] |
+| 4 | [1004. 最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/) | 1656 | 翻转至多k个0 | - [ ] |
+
+**今日总结**：可替换/删除k个元素的滑窗模式
+
+---
+
+### Day 5: 相向双指针（上）（4题）
+
+**学习目标**：掌握从两端向中间移动的双指针技巧
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [344. 反转字符串](https://leetcode.cn/problems/reverse-string/) | 基础 | 双指针交换元素 | - [ ] |
+| 2 | [125. 验证回文串](https://leetcode.cn/problems/valid-palindrome/) | 基础 | 判断回文 | - [ ] |
+| 3 | [167. 两数之和 II](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | 经典 | 有序数组找两数之和 | - [ ] |
+| 4 | [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/) | 中等 | 判断是否为两平方数之和 | - [ ] |
+
+**今日总结**：有序数组用双指针比哈希表更优
+
+---
+
+### Day 6: 相向双指针（下）+ 三数之和（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [2824. 统计和小于目标的下标对数目](https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/) | 基础 | 统计符合条件的对数 | - [ ] |
+| 2 | ⭐ [15. 三数之和](https://leetcode.cn/problems/3sum/) | 经典 | 固定一个数+双指针 | - [ ] |
+| 3 | [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/) | 中等 | 三数之和变形 | - [ ] |
+| 4 | [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/) | 经典 | 贪心+双指针 | - [ ] |
+
+**今日总结**：三数之和的套路：排序+固定+双指针
+
+---
+
+### Day 7: Week 1 复习与总结
+
+**复习任务**：
+
+1. 重做本周标记⭐的题目（不看代码）
+
+2. 总结定长滑窗和不定长滑窗的区别
+
+3. 总结相向双指针的适用场景
+
+4. 完成Week 1进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 1456（定长滑窗模板）
+
+- 3（不定长滑窗经典）
+
+- 2024（替换问题）
+
+- 15（三数之和）
+
+---
+
+## Week 2: 二分查找 (Day 8-14)
+
+### Day 8: 二分查找基础（上）（4题）
+
+**学习目标**：掌握红蓝染色法，理解开区间写法
+
+**配套视频**：[二分查找 红蓝染色法](https://www.bilibili.com/video/BV1AP41137w7/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [704. 二分查找](https://leetcode.cn/problems/binary-search/) | 基础 | 二分查找模板题 | - [ ] |
+| 2 | [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/) | 基础 | 找插入位置 | - [ ] |
+| 3 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | 中等 | 查找边界 | - [ ] |
+| 4 | [69. x的平方根](https://leetcode.cn/problems/sqrtx/) | 基础 | 整数二分 | - [ ] |
+
+**今日总结**：记住开区间二分的模板写法
+
+---
+
+### Day 9: 二分查找基础（下）（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [278. 第一个错误的版本](https://leetcode.cn/problems/first-bad-version/) | 基础 | 找第一个满足条件的 | - [ ] |
+| 2 | [374. 猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/) | 基础 | 交互式二分 | - [ ] |
+| 3 | [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/) | 基础 | 判断完全平方数 | - [ ] |
+| 4 | [2529. 正整数和负整数的最大计数](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/) | 1195 | 统计正负数个数 | - [ ] |
+
+**今日总结**：二分不仅用于查找，还可以用于判定
+
+---
+
+### Day 10: 二分答案-求最小（上）（4题）
+
+**学习目标**：学会"二分答案"思想，check函数的编写：学会"二分答案"思想，check函数的编写
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/) | 1766 | 二分答案经典题 | - [ ] |
+| 2 | [1011. 在D天内送达包裹的能力](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/) | 1725 | 最小化最大值 | - [ ] |
+| 3 | [2187. 完成旅途的最少时间](https://leetcode.cn/problems/minimum-time-to-complete-trips/) | 1641 | 最小化时间 | - [ ] |
+| 4 | [1870. 准时到达的列车最小时速](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/) | 1676 | 最小化速度 | - [ ] |
+
+**今日总结**：二分答案的本质是把判定问题转化为优化问题
+
+---
+
+### Day 11: 二分答案-求最小（下）（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1283. 使结果不超过阈值的最小除数](https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold/) | 1542 | 最小化除数 | - [ ] |
+| 2 | [2064. 分配给商店的最多商品的最小值](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store/) | 1886 | 最小化最大值 | - [ ] |
+| 3 | [1482. 制作m束花所需的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/) | 1946 | 最小化天数 | - [ ] |
+| 4 | [2226. 每个小孩最多能分到多少糖果](https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/) | 1646 | 最大化最小值 | - [ ] |
+
+**今日总结**：check函数需要判断当前答案是否可行
+
+---
+
+### Day 12: 二分答案-求最大（4题）
+
+**学习目标**：区分"求最小"和"求最大"的二分写法差异
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1760. 袋子里最少数目的球](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/) | 1940 | 最小化最大值 | - [ ] |
+| 2 | [1552. 两球之间的磁力](https://leetcode.cn/problems/magnetic-force-between-two-balls/) | 1920 | 最大化最小距离 | - [ ] |
+| 3 | ⭐ [2517. 礼盒的最大甜蜜度](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket/) | 2021 | 最大化最小差值 | - [ ] |
+| 4 | [2439. 最小化数组中的最大值](https://leetcode.cn/problems/minimize-maximum-of-array/) | 1965 | 最小化最大值 | - [ ] |
+
+**今日总结**：check(mid)==true时更新left还是right决定了求最大还是最小
+
+---
+
+### Day 13: 旋转数组二分（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | 经典 | 判断有序区间 | - [ ] |
+| 2 | [81. 搜索旋转排序数组 II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/) | 中等 | 处理重复元素 | - [ ] |
+| 3 | [153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | 中等 | 找旋转点 | - [ ] |
+
+**今日总结**：旋转数组的二分关键是判断mid在哪个有序区间
+
+---
+
+### Day 14: Week 2 复习与总结
+
+**复习任务**：
+
+1. 重做Week 2标记⭐的题目
+
+2. 总结二分查找和二分答案的区别
+
+3. 默写二分模板（开区间写法）
+
+4. 完成Week 2进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 704（二分查找基础）
+
+- 875（二分答案经典）
+
+- 2517（最大化最小值）
+
+- 33（旋转数组）
+
+---
+
+## Week 3: 前缀和与单调栈 (Day 15-21)
+
+### Day 15: 一维前缀和（上）（4题）
+
+**学习目标**：理解前缀和的本质，学会预处理
+
+**配套视频**：[前缀和基础算法精讲](https://www.bilibili.com/video/BV1NY411W7Jj/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [303. 区域和检索-数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/) | 基础 | 前缀和模板题 | - [ ] |
+| 2 | [1480. 一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array/) | 基础 | 前缀和基础 | - [ ] |
+| 3 | [724. 寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index/) | 基础 | 前缀和应用 | - [ ] |
+| 4 | [1893. 检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/) | 1307 | 差分思想 | - [ ] |
+
+**今日总结**：前缀和公式：sum[i] = sum[i-1] + nums[i]
+
+---
+
+### Day 16: 一维前缀和（下）+ 哈希表优化（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [560. 和为K的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/) | 经典 | 前缀和+哈希表 | - [ ] |
+| 2 | [974. 和可被K整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/) | 1675 | 同余前缀和 | - [ ] |
+| 3 | [525. 连续数组](https://leetcode.cn/problems/contiguous-array/) | 中等 | 0视为-1的前缀和 | - [ ] |
+| 4 | [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum/) | 中等 | 前缀和取模 | - [ ] |
+
+**今日总结**：前缀和+哈希表可以O(n)解决子数组和问题
+
+---
+
+### Day 17: 二维前缀和（3题）
+
+**学习目标**：掌握二维前缀和的容斥原理
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [304. 二维区域和检索-矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable/) | 经典 | 二维前缀和模板 | - [ ] |
+| 2 | [1314. 矩阵区域和](https://leetcode.cn/problems/matrix-block-sum/) | 1483 | 二维前缀和应用 | - [ ] |
+| 3 | [2132. 用邮票贴满网格图](https://leetcode.cn/problems/stamping-the-grid/) | 2364 | 二维差分 | - [ ] |
+
+**今日总结**：二维前缀和的容斥公式要熟记
+
+---
+
+### Day 18: 单调栈基础（上）（4题）
+
+**学习目标**：理解单调栈维护单调性的原理
+
+**配套视频**：[单调栈基础算法精讲](https://www.bilibili.com/video/BV1VN411J7S7/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [739. 每日温度](https://leetcode.cn/problems/daily-temperatures/) | 经典 | 单调栈模板题 | - [ ] |
+| 2 | [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/) | 基础 | 下一个更大元素 | - [ ] |
+| 3 | [503. 下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii/) | 中等 | 循环数组 | - [ ] |
+| 4 | [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span/) | 1709 | 在线算法 | - [ ] |
+
+**今日总结**：单调栈维护的是"下一个更大/更小元素"
+
+---
+
+### Day 19: 单调栈基础（下）（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1475. 商品折扣后的最终价格](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/) | 1212 | 下一个更小元素 | - [ ] |
+| 2 | [1944. 队列中可以看到的人数](https://leetcode.cn/problems/number-of-visible-people-in-a-queue/) | 1662 | 单调栈统计 | - [ ] |
+| 3 | [2487. 从链表中移除节点](https://leetcode.cn/problems/remove-nodes-from-linked-list/) | 1454 | 链表+单调栈 | - [ ] |
+| 4 | [2454. 下一个更大元素 IV](https://leetcode.cn/problems/next-greater-element-iv/) | 1903 | 两次单调栈 | - [ ] |
+
+**今日总结**：单调栈可以从左到右或从右到左扫描
+
+---
+
+### Day 20: 单调栈-矩形面积（3题）
+
+**学习目标**：学会用单调栈解决柱状图问题
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | 经典 | 单调栈经典应用 | - [ ] |
+| 2 | [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/) | 困难 | 转化为84题 | - [ ] |
+| 3 | [1504. 统计全1子矩形](https://leetcode.cn/problems/count-submatrices-with-all-ones/) | 1844 | 枚举+单调栈 | - [ ] |
+
+**今日总结**：柱状图问题用单调栈找左右边界
+
+---
+
+### Day 21: Week 3 复习与总结
+
+**复习任务**：
+
+1. 重做Week 3标记⭐的题目
+
+2. 总结前缀和的应用场景
+
+3. 总结单调栈的应用场景
+
+4. 完成Week 3进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 303（一维前缀和）
+
+- 560（前缀和+哈希表）
+
+- 304（二维前缀和）
+
+- 739（单调栈模板）
+
+- 84（矩形面积）
+
+---
+
+## Week 4: 队列与堆 (Day 22-28)
+
+### Day 22: 队列基础与单调队列（上）（4题）
+
+**学习目标**：理解单调队列维护区间最值
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [933. 最近的请求次数](https://leetcode.cn/problems/number-of-recent-calls/) | 基础 | 队列基础操作 | - [ ] |
+| 2 | ⭐ [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/) | 经典 | 单调队列模板题 | - [ ] |
+| 3 | [1438. 绝对差不超过限制的最长连续子数组](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | 1672 | 维护最大最小值 | - [ ] |
+| 4 | [862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | 2307 | 前缀和+单调队列 | - [ ] |
+
+**今日总结**：单调队列可以O(1)查询区间最值
+
+---
+
+### Day 23: 单调队列进阶（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1499. 满足不等式的最大值](https://leetcode.cn/problems/max-value-of-equation/) | 2456 | 斜率优化 | - [ ] |
+| 2 | [1696. 跳跃游戏VI](https://leetcode.cn/problems/jump-game-vi/) | 1954 | DP+单调队列优化 | - [ ] |
+| 3 | [2398. 预算内的最多机器人数目](https://leetcode.cn/problems/maximum-number-of-robots-within-budget/) | 1917 | 滑窗+单调队列 | - [ ] |
+
+**今日总结**：单调队列常用于优化DP
+
+---
+
+### Day 24: 堆基础（上）-第K大/小（4题）
+
+**学习目标**：掌握堆的基本操作和应用
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | 经典 | 堆/快速选择 | - [ ] |
+| 2 | [703. 数据流中的第K大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/) | 基础 | 维护大小为k的小顶堆 | - [ ] |
+| 3 | [973. 最接近原点的K个点](https://leetcode.cn/problems/k-closest-points-to-origin/) | 中等 | Top K问题 | - [ ] |
+| 4 | [347. 前K个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/) | 中等 | 哈希表+堆 | - [ ] |
+
+**今日总结**：Top K问题优先考虑堆
+
+---
+
+### Day 25: 堆基础（下）-合并K个有序（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/) | 经典 | 多路归并 | - [ ] |
+| 2 | [373. 查找和最小的K对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/) | 中等 | 多指针+堆 | - [ ] |
+| 3 | [378. 有序矩阵中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/) | 中等 | 堆/二分答案 | - [ ] |
+| 4 | [786. 第K个最小的质数分数](https://leetcode.cn/problems/k-th-smallest-prime-fraction/) | 2169 | 多路归并 | - [ ] |
+
+**今日总结**：合并K个有序用小顶堆
+
+---
+
+### Day 26: 堆的其他应用（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [253. 会议室II](https://leetcode.cn/problems/meeting-rooms-ii/) | 中等 | 扫描线+堆 | - [ ] |
+| 2 | [692. 前K个高频单词](https://leetcode.cn/problems/top-k-frequent-words/) | 中等 | 自定义比较器 | - [ ] |
+| 3 | [1046. 最后一块石头的重量](https://leetcode.cn/problems/last-stone-weight/) | 基础 | 大顶堆模拟 | - [ ] |
+
+**今日总结**：堆可以高效维护动态的最值
+
+---
+
+### Day 27: 综合练习-优先队列（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [2462. 雇佣K位工人的总代价](https://leetcode.cn/problems/total-cost-to-hire-k-workers/) | 1762 | 双堆 | - [ ] |
+| 2 | [2542. 最大子序列的分数](https://leetcode.cn/problems/maximum-subsequence-score/) | 2056 | 排序+堆 | - [ ] |
+| 3 | [1675. 数组的最小偏移量](https://leetcode.cn/problems/minimize-deviation-in-array/) | 2533 | 堆+贪心 | - [ ] |
+
+**今日总结**：复杂问题可能需要多个堆配合
+
+---
+
+### Day 28: Week 4 复习与总结
+
+**复习任务**：
+
+1. 重做Week 4标记⭐的题目
+
+2. 总结单调队列和堆的区别
+
+3. 总结Top K问题的解法
+
+4. 完成Week 4进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 239（单调队列）
+
+- 215（第K大）
+
+- 23（合并K个链表）
+
+---
+
+## Week 5: 动态规划入门 (Day 29-35)
+
+### Day 29: 爬楼梯与打家劫舍（上）（4题）
+
+**学习目标**：理解记忆化搜索，学会1:1翻译成递推
+
+**配套视频**：[动态规划入门：从记忆化搜索到递推](https://www.bilibili.com/video/BV1Xj411K7oF/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/) | 基础 | DP入门第一题 | - [ ] |
+| 2 | [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/) | 基础 | 爬楼梯变形 | - [ ] |
+| 3 | [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/) | 基础 | 理解递推关系 | - [ ] |
+| 4 | [1137. 第N个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/) | 基础 | 三个状态 | - [ ] |
+
+**今日总结**：DP三部曲：定义状态→找递推关系→确定边界
+
+---
+
+### Day 30: 打家劫舍系列（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [198. 打家劫舍](https://leetcode.cn/problems/house-robber/) | 经典 | 选或不选 | - [ ] |
+| 2 | [213. 打家劫舍II](https://leetcode.cn/problems/house-robber-ii/) | 中等 | 环形数组 | - [ ] |
+| 3 | [740. 删除并获得点数](https://leetcode.cn/problems/delete-and-earn/) | 1762 | 转化为打家劫舍 | - [ ] |
+| 4 | [2320. 统计放置房子的方式数](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/) | 1608 | 两条街道独立 | - [ ] |
+
+**今日总结**：打家劫舍的核心是"选或不选"
+
+---
+
+### Day 31: 最大子数组和系列（4题）
+
+**学习目标**：掌握Kadane算法和前缀和做法
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/) | 经典 | Kadane算法 | - [ ] |
+| 2 | [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/) | 1777 | 分情况讨论 | - [ ] |
+| 3 | [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/) | 中等 | 维护最大最小值 | - [ ] |
+| 4 | [1567. 乘积为正数的最长子数组长度](https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product/) | 1710 | 正负性DP | - [ ] |
+
+**今日总结**：Kadane算法本质是以i结尾的最大和
+
+---
+
+### Day 32: 网格图DP（上）-路径问题（4题）
+
+**学习目标**：理解二维DP的状态转移
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [62. 不同路径](https://leetcode.cn/problems/unique-paths/) | 经典 | 网格图DP模板 | - [ ] |
+| 2 | [63. 不同路径II](https://leetcode.cn/problems/unique-paths-ii/) | 中等 | 有障碍物 | - [ ] |
+| 3 | [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/) | 中等 | 求最小和 | - [ ] |
+| 4 | [120. 三角形最小路径和](https://leetcode.cn/problems/triangle/) | 中等 | 三角形 | - [ ] |
+
+**今日总结**：网格图DP一般从左上到右下转移
+
+---
+
+### Day 33: 网格图DP（下）-统计路径（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [931. 下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/) | 1573 | 三个方向 | - [ ] |
+| 2 | [1289. 下降路径最小和II](https://leetcode.cn/problems/minimum-falling-path-sum-ii/) | 1697 | 任意列 | - [ ] |
+| 3 | [2304. 网格中的最小路径代价](https://leetcode.cn/problems/minimum-path-cost-in-a-grid/) | 1658 | 带权重 | - [ ] |
+| 4 | [1301. 最大得分的路径数目](https://leetcode.cn/problems/number-of-paths-with-max-score/) | 2037 | 统计方案数 | - [ ] |
+
+**今日总结**：网格图DP可以求最值也可以统计方案数
+
+---
+
+### Day 34: DP进阶-状态设计（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [221. 最大正方形](https://leetcode.cn/problems/maximal-square/) | 中等 | 以(i,j)为右下角 | - [ ] |
+| 2 | [1749. 任意子数组和的绝对值的最大值](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/) | 1542 | 维护最大最小和 | - [ ] |
+| 3 | [1186. 删除一次得到子数组最大和](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/) | 1799 | 删除或不删除 | - [ ] |
+
+**今日总结**：状态设计要考虑所有可能的情况
+
+---
+
+### Day 35: Week 5 复习与总结
+
+**复习任务**：
+
+1. 重做Week 5标记⭐的题目
+
+2. 总结记忆化搜索转递推的步骤
+
+3. 总结打家劫舍和最大子数组和的思路
+
+4. 完成Week 5进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 70（爬楼梯）
+
+- 198（打家劫舍）
+
+- 53（最大子数组和）
+
+- 62（不同路径）
+
+---
+
+## Week 6: 背包与LCS (Day 36-42)
+
+### Day 36: 0-1背包基础（上）（4题）
+
+**学习目标**：理解0-1背包的"选或不选"思想
+
+**配套视频**：[0-1背包 完全背包](https://www.bilibili.com/video/BV16Y411v7Y6/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/) | 经典 | 01背包经典题 | - [ ] |
+| 2 | [494. 目标和](https://leetcode.cn/problems/target-sum/) | 1762 | 转化为01背包 | - [ ] |
+| 3 | [2787. 将一个数字表示成幂的和的方案数](https://leetcode.cn/problems/ways-to-express-an-integer-as-sum-of-powers/) | 1818 | 01背包求方案数 | - [ ] |
+| 4 | [474. 一和零](https://leetcode.cn/problems/ones-and-zeroes/) | 中等 | 二维01背包 | - [ ] |
+
+**今日总结**：01背包的核心递推：dp[i][j] = max(dp[i-1][j], dp[i-1][j-w]+v)
+
+---
+
+### Day 37: 0-1背包基础（下）（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1049. 最后一块石头的重量II](https://leetcode.cn/problems/last-stone-weight-ii/) | 2092 | 转化为01背包 | - [ ] |
+| 2 | [879. 盈利计划](https://leetcode.cn/problems/profitable-schemes/) | 2204 | 二维01背包 | - [ ] |
+| 3 | [3180. 执行操作可获得的最大总奖励I](https://leetcode.cn/problems/maximum-total-reward-using-operations-i/) | 1848 | 01背包变形 | - [ ] |
+| 4 | [2915. 和为目标值的最长子序列的长度](https://leetcode.cn/problems/length-of-the-longest-subsequence-that-sums-to-target/) | 1659 | 01背包求长度 | - [ ] |
+
+**今日总结**：很多问题可以转化为01背包
+
+---
+
+### Day 38: 完全背包（4题）
+
+**学习目标**：理解完全背包的优化
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [322. 零钱兑换](https://leetcode.cn/problems/coin-change/) | 经典 | 完全背包模板题 | - [ ] |
+| 2 | [518. 零钱兑换II](https://leetcode.cn/problems/coin-change-ii/) | 中等 | 求方案数 | - [ ] |
+| 3 | [279. 完全平方数](https://leetcode.cn/problems/perfect-squares/) | 中等 | 数学+完全背包 | - [ ] |
+| 4 | [2902. 和带限制的子多重集合的数目](https://leetcode.cn/problems/count-of-sub-multisets-with-bounded-sum/) | 2758 | 多重集合背包 | - [ ] |
+
+**今日总结**：完全背包可以一维DP，正序遍历
+
+---
+
+### Day 39: 背包综合（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [377. 组合总和IV](https://leetcode.cn/problems/combination-sum-iv/) | 中等 | 考虑顺序的完全背包 | - [ ] |
+| 2 | [1449. 数位成本和为目标值的最大数字](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target/) | 2093 | 贪心+完全背包 | - [ ] |
+| 3 | [2585. 获得分数的方法数](https://leetcode.cn/problems/number-of-ways-to-earn-points/) | 1910 | 分组背包 | - [ ] |
+
+**今日总结**：背包问题有多种变形
+
+---
+
+### Day 40: 最长公共子序列（上）（4题）
+
+**学习目标**：掌握LCS的状态定义和转移
+
+**配套视频**：[最长公共子序列 编辑距离](https://www.bilibili.com/video/BV1TM4y1o7ug/)
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/) | 经典 | LCS模板题 | - [ ] |
+| 2 | [583. 两个字符串的删除操作](https://leetcode.cn/problems/delete-operation-for-two-strings/) | 中等 | LCS变形 | - [ ] |
+| 3 | [712. 两个字符串的最小ASCII删除和](https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings/) | 1478 | 带权重的LCS | - [ ] |
+| 4 | [1035. 不相交的线](https://leetcode.cn/problems/uncrossed-lines/) | 1806 | 本质是LCS | - [ ] |
+
+**今日总结**：LCS的递推：相等则+1，不等取max
+
+---
+
+### Day 41: 编辑距离（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [72. 编辑距离](https://leetcode.cn/problems/edit-distance/) | 经典 | 三种操作 | - [ ] |
+| 2 | [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/) | 中等 | 双序列DP | - [ ] |
+| 3 | [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/) | 1905 | 统计方案数 | - [ ] |
+
+**今日总结**：编辑距离考虑增删改三种操作
+
+---
+
+### Day 42: Week 6 复习与总结
+
+**复习任务**：
+
+1. 重做Week 6标记⭐的题目
+
+2. 对比01背包和完全背包的区别
+
+3. 总结LCS的状态转移方程
+
+4. 完成Week 6进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 416（01背包）
+
+- 322（完全背包）
+
+- 1143（LCS）
+
+- 72（编辑距离）
+
+---
+
+## Week 7: DFS与BFS (Day 43-49)
+
+### Day 43: DFS基础-树的遍历（4题）
+
+**学习目标**：理解递归的思想，掌握DFS模板
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | 基础 | DFS入门题 | - [ ] |
+| 2 | [111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/) | 基础 | 注意边界 | - [ ] |
+| 3 | [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/) | 基础 | 自底向上 | - [ ] |
+| 4 | [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) | 经典 | 树形DP | - [ ] |
+
+**今日总结**：DFS = 递归 = 自顶向下思考
+
+---
+
+### Day 44: DFS-树的路径（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [112. 路径总和](https://leetcode.cn/problems/path-sum/) | 基础 | 根到叶路径 | - [ ] |
+| 2 | [113. 路径总和II](https://leetcode.cn/problems/path-sum-ii/) | 中等 | 记录路径 | - [ ] |
+| 3 | [437. 路径总和III](https://leetcode.cn/problems/path-sum-iii/) | 中等 | 前缀和+DFS | - [ ] |
+| 4 | [988. 从叶结点开始的最小字符串](https://leetcode.cn/problems/smallest-string-starting-from-leaf/) | 1429 | 字符串拼接 | - [ ] |
+
+**今日总结**：路径问题注意回溯
+
+---
+
+### Day 45: BFS基础-层序遍历（4题）
+
+**学习目标**：掌握队列实现BFS
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [102. 二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/) | 经典 | BFS模板题 | - [ ] |
+| 2 | [107. 二叉树的层序遍历II](https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/) | 基础 | 反转结果 | - [ ] |
+| 3 | [103. 二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) | 中等 | 交替方向 | - [ ] |
+| 4 | [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/) | 中等 | 每层最后一个 | - [ ] |
+
+**今日总结**：BFS适合层级遍历
+
+---
+
+### Day 46: 网格图DFS（4题）
+
+**学习目标**：学会在网格图上DFS
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/) | 经典 | 网格图DFS模板 | - [ ] |
+| 2 | [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/) | 中等 | 统计面积 | - [ ] |
+| 3 | [463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/) | 基础 | 统计边界 | - [ ] |
+| 4 | [1254. 统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/) | 1659 | 排除边界 | - [ ] |
+
+**今日总结**：网格图DFS要标记访问过的格子
+
+---
+
+### Day 47: 网格图BFS（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [994. 腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/) | 经典 | 多源BFS | - [ ] |
+| 2 | [542. 01矩阵](https://leetcode.cn/problems/01-matrix/) | 1658 | 多源BFS求距离 | - [ ] |
+| 3 | [1162. 地图分析](https://leetcode.cn/problems/as-far-from-land-as-possible/) | 1666 | 最远距离 | - [ ] |
+| 4 | [1765. 地图中的最高点](https://leetcode.cn/problems/map-of-highest-peak/) | 1784 | 拓扑排序思想 | - [ ] |
+
+**今日总结**：多源BFS把所有源点同时入队
+
+---
+
+### Day 48: 综合DFS/BFS（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/) | 1615 | DFS标记边界 | - [ ] |
+| 2 | [1992. 找到所有的农场组](https://leetcode.cn/problems/find-all-groups-of-farmland/) | 1539 | 找矩形边界 | - [ ] |
+| 3 | [1091. 二进制矩阵中的最短路径](https://leetcode.cn/problems/shortest-path-in-binary-matrix/) | 中等 | 8方向BFS | - [ ] |
+
+**今日总结**：根据题目选择DFS还是BFS
+
+---
+
+### Day 49: Week 7 复习与总结
+
+**复习任务**：
+
+1. 重做Week 7标记⭐的题目
+
+2. 总结DFS和BFS的区别
+
+3. 总结网格图DFS/BFS的模板
+
+4. 完成Week 7进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 104（树的DFS）
+
+- 102（树的BFS）
+
+- 200（岛屿数量）
+
+- 994（多源BFS）
+
+---
+
+## Week 8: 二叉树与回溯 (Day 50-56)
+
+### Day 50: 二叉树DFS-路径与构造（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/) | 基础 | 记录路径 | - [ ] |
+| 2 | [129. 求根节点到叶节点数字之和](https://leetcode.cn/problems/sum-root-to-leaf-numbers/) | 中等 | 路径和 | - [ ] |
+| 3 | [105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 中等 | 递归构造 | - [ ] |
+| 4 | [106. 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 中等 | 递归构造 | - [ ] |
+
+**今日总结**：构造二叉树关键是找根节点位置
+
+---
+
+### Day 51: 二叉树-公共祖先与序列化（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) | 经典 | LCA模板题 | - [ ] |
+| 2 | [235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 基础 | 利用BST性质 | - [ ] |
+| 3 | [297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | 困难 | 前序遍历 | - [ ] |
+| 4 | [114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) | 中等 | 后序遍历 | - [ ] |
+
+**今日总结**：LCA问题用递归自底向上
+
+---
+
+### Day 52: 回溯基础-子集（4题）
+
+**学习目标**：理解回溯三要素：选择、撤销、结束条件
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [78. 子集](https://leetcode.cn/problems/subsets/) | 经典 | 回溯模板题 | - [ ] |
+| 2 | [90. 子集II](https://leetcode.cn/problems/subsets-ii/) | 中等 | 去重 | - [ ] |
+| 3 | [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) | 1335 | 字符串回溯 | - [ ] |
+| 4 | [2397. 被列覆盖的最多行数](https://leetcode.cn/problems/maximum-rows-covered-by-columns/) | 1719 | 枚举子集 | - [ ] |
+
+**今日总结**：子集问题每个元素选或不选
+
+---
+
+### Day 53: 回溯-组合（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [77. 组合](https://leetcode.cn/problems/combinations/) | 经典 | 组合模板 | - [ ] |
+| 2 | [39. 组合总和](https://leetcode.cn/problems/combination-sum/) | 中等 | 可重复选择 | - [ ] |
+| 3 | [40. 组合总和II](https://leetcode.cn/problems/combination-sum-ii/) | 中等 | 去重+剪枝 | - [ ] |
+| 4 | [216. 组合总和III](https://leetcode.cn/problems/combination-sum-iii/) | 中等 | 固定长度 | - [ ] |
+
+**今日总结**：组合问题要剪枝优化
+
+---
+
+### Day 54: 回溯-排列（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [46. 全排列](https://leetcode.cn/problems/permutations/) | 经典 | 排列模板 | - [ ] |
+| 2 | [47. 全排列II](https://leetcode.cn/problems/permutations-ii/) | 中等 | 去重 | - [ ] |
+| 3 | [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/) | 1335 | 字符排列 | - [ ] |
+| 4 | [2850. 将石头分散到网格图的最少移动次数](https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/) | 2012 | 枚举排列 | - [ ] |
+
+**今日总结**：排列问题需要标记已选元素
+
+---
+
+### Day 55: 回溯综合练习（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/) | 中等 | 多个集合组合 | - [ ] |
+| 2 | [22. 括号生成](https://leetcode.cn/problems/generate-parentheses/) | 中等 | 合法括号 | - [ ] |
+| 3 | [131. 分割回文串](https://leetcode.cn/problems/palindrome-partitioning/) | 中等 | 分割+判断 | - [ ] |
+
+**今日总结**：回溯是暴力搜索+剪枝
+
+---
+
+### Day 56: Week 8 复习与总结
+
+**复习任务**：
+
+1. 重做Week 8标记⭐的题目
+
+2. 总结子集、组合、排列的区别
+
+3. 总结回溯的模板代码
+
+4. 完成Week 8进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 236（LCA）
+
+- 78（子集）
+
+- 77（组合）
+
+- 46（排列）
+
+---
+
+## Week 9: 贪心算法 (Day 57-63)
+
+### Day 57: 基本贪心策略（上）（4题）
+
+**学习目标**：学会从最小/最大开始贪心
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/) | 基础 | 排序后贪心 | - [ ] |
+| 2 | [860. 柠檬水找零](https://leetcode.cn/problems/lemonade-change/) | 基础 | 贪心模拟 | - [ ] |
+| 3 | [2578. 最小和分割](https://leetcode.cn/problems/split-with-minimum-sum/) | 1196 | 排序构造 | - [ ] |
+| 4 | [1005. K次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/) | 1335 | 贪心策略 | - [ ] |
+
+**今日总结**：贪心第一步：排序
+
+---
+
+### Day 58: 基本贪心策略（下）（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/) | 1303 | 按单价排序 | - [ ] |
+| 2 | [561. 数组拆分](https://leetcode.cn/problems/array-partition/) | 基础 | 配对贪心 | - [ ] |
+| 3 | [2294. 划分数组使最大差为K](https://leetcode.cn/problems/partition-array-such-that-maximum-difference-is-k/) | 1415 | 贪心分组 | - [ ] |
+| 4 | [2449. 使数组相似的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-arrays-similar/) | 2076 | 排序+贪心 | - [ ] |
+
+**今日总结**：配对问题：最大配最小
+
+---
+
+### Day 59: 区间贪心-不相交区间（4题）
+
+**学习目标**：掌握区间贪心的排序策略
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/) | 经典 | 按右端点排序 | - [ ] |
+| 2 | [452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/) | 中等 | 同435题 | - [ ] |
+| 3 | [646. 最长数对链](https://leetcode.cn/problems/maximum-length-of-pair-chain/) | 1621 | 选最多不相交 | - [ ] |
+| 4 | [2963. 统计好分割方案的数目](https://leetcode.cn/problems/count-the-number-of-good-partitions/) | 2015 | 区间合并 | - [ ] |
+
+**今日总结**：不相交区间按右端点排序
+
+---
+
+### Day 60: 区间贪心-区间覆盖（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [55. 跳跃游戏](https://leetcode.cn/problems/jump-game/) | 中等 | 贪心判断 | - [ ] |
+| 2 | ⭐ [45. 跳跃游戏II](https://leetcode.cn/problems/jump-game-ii/) | 经典 | 最少跳跃次数 | - [ ] |
+| 3 | [1024. 视频拼接](https://leetcode.cn/problems/video-stitching/) | 1824 | 区间覆盖 | - [ ] |
+| 4 | [1326. 灌溉花园的最少水龙头数目](https://leetcode.cn/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | 2046 | 区间覆盖变形 | - [ ] |
+
+**今日总结**：区间覆盖要维护当前能到达的最远位置
+
+---
+
+### Day 61: 数学贪心（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [2139. 得到目标值的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-score/) | 1468 | 数学推导 | - [ ] |
+| 2 | [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator/) | 1909 | 逆向思维 | - [ ] |
+| 3 | [2745. 构造最长的新字符串](https://leetcode.cn/problems/construct-the-longest-new-string/) | 1607 | 构造贪心 | - [ ] |
+| 4 | [670. 最大交换](https://leetcode.cn/problems/maximum-swap/) | 中等 | 贪心交换 | - [ ] |
+
+**今日总结**：有些贪心需要数学推导
+
+---
+
+### Day 62: 贪心综合练习（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [134. 加油站](https://leetcode.cn/problems/gas-station/) | 中等 | 贪心判断 | - [ ] |
+| 2 | [135. 分发糖果](https://leetcode.cn/problems/candy/) | 困难 | 两次遍历 | - [ ] |
+| 3 | [2589. 完成所有任务的最少时间](https://leetcode.cn/problems/minimum-time-to-complete-all-tasks/) | 2381 | 贪心+差分 | - [ ] |
+
+**今日总结**：贪心证明往往用反证法或交换论证法
+
+---
+
+### Day 63: Week 9 复习与总结
+
+**复习任务**：
+
+1. 重做Week 9标记⭐的题目
+
+2. 总结贪心和DP的区别
+
+3. 总结区间贪心的排序策略
+
+4. 完成Week 9进度记录表
+
+**复习题目推荐**（选做3-4题）：
+
+- 435（不相交区间）
+
+- 45（跳跃游戏II）
+
+---
+
+## Week 10: 位运算与并查集 (Day 64-70)
+
+### Day 64: 位运算基础（4题）
+
+**学习目标**：掌握常用位运算技巧
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/) | 基础 | Brian Kernighan算法 | - [ ] |
+| 2 | [338. 比特位计数](https://leetcode.cn/problems/counting-bits/) | 基础 | DP/位运算 | - [ ] |
+| 3 | [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) | 基础 | 异或性质 | - [ ] |
+| 4 | [137. 只出现一次的数字II](https://leetcode.cn/problems/single-number-ii/) | 中等 | 位运算统计 | - [ ] |
+
+**今日总结**：掌握n&(n-1)、异或等技巧
+
+---
+
+### Day 65: 位运算进阶（4题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | 中等 | 找公共前缀 | - [ ] |
+| 2 | [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) | 中等 | 不用+实现加法 | - [ ] |
+| 3 | [2317. 操作后的最大异或和](https://leetcode.cn/problems/maximum-xor-after-operations/) | 1679 | 位运算性质 | - [ ] |
+| 4 | [2433. 找出前缀异或的原始数组](https://leetcode.cn/problems/find-the-original-array-of-prefix-xor/) | 1366 | 前缀异或 | - [ ] |
+
+**今日总结**：异或的自反性a^b^b=a
+
+---
+
+### Day 66: 并查集基础（上）（4题）
+
+**学习目标**：理解并查集的路径压缩和按秩合并
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | ⭐ [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/) | 基础 | 并查集模板题 | - [ ] |
+| 2 | [990. 等式方程的可满足性](https://leetcode.cn/problems/satisfiability-of-equality-equations/) | 1638 | 判断连通性 | - [ ] |
+| 3 | [721. 账户合并](https://leetcode.cn/problems/accounts-merge/) | 中等 | 字符串并查集 | - [ ] |
+| 4 | [684. 冗余连接](https://leetcode.cn/problems/redundant-connection/) | 中等 | 找环 | - [ ] |
+
+**今日总结**：并查集用于维护连通性
+
+---
+
+### Day 67: 并查集基础（下）（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1319. 连通网络的操作次数](https://leetcode.cn/problems/number-of-operations-to-make-network-connected/) | 1633 | 统计连通分量 | - [ ] |
+| 2 | [1202. 交换字符串中的元素](https://leetcode.cn/problems/smallest-string-with-swaps/) | 1855 | 分组排序 | - [ ] |
+| 3 | [2812. 找出最安全路径](https://leetcode.cn/problems/find-the-safest-path-in-a-grid/) | 2154 | 二分+并查集 | - [ ] |
+
+**今日总结**：并查集常与排序、二分结合
+
+---
+
+### Day 68: 综合练习-状态压缩（3题）
+
+| 序号 | 题目 | 难度分 | 重点 | 打卡 |
+| --- | --- | --- | --- | --- |
+| 1 | [1178. 猜字谜](https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle/) | 2014 | 枚举子集 | - [ ] |
+| 2 | [1255. 得分最高的单词集合](https://leetcode.cn/problems/maximum-score-words-formed-by-letters/) | 2033 | 枚举子集 | - [ ] |
+| 3 | [847. 访问所有节点的最短路径](https://leetcode.cn/problems/shortest-path-in-binary-matrix/) | 2180 | 状压BFS | - [ ] |
+
+**今日总结**：状态压缩用二进制表示集合
+
+---
+
+### Day 69: 数学基础（3题）
+
+| 序号 | 题
