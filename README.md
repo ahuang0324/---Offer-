@@ -101,11 +101,11 @@
 
 | 序号 | 题目 | 难度分 | 重点 | 打卡 |
 | --- | --- | --- | --- | --- |
-| 1 | ⭐ [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 1263 | 定长滑窗模板题,必须掌握 | - [ ] |
+| 1  1 | ⭐  ⭐ [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 1263  1263 | 定长滑窗模板题,必须掌握  定长滑窗模板题,必须掌握 | - [ ]  - [ ] |
 | 2 | [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/) | 基础 | 练习窗口内求和 | - [ ] |
-| 3 | [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | 1317 | 统计满足条件的窗口 | - [ ] |
+| 3  3 | [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | 1317  1317 | 统计满足条件的窗口  统计满足条件的窗口 | - [ ]  - [ ] |
 
-完成情况 - [ ]
+- [ ]
 
 **今日总结**：回顾定长滑窗的两个步骤：(1)先计算第一个窗口 (2)滑动窗口更新答案
 
